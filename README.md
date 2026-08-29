@@ -1,8 +1,10 @@
-# HTML Test Bank Manager
+# 📚 HTML Test Bank Manager
 
 **HTML Test Bank Manager** là ứng dụng desktop viết bằng Python (PyQt6) giúp quản lý, chỉnh sửa và tạo mới các file HTML bài tập trắc nghiệm tương tác độc lập. 
 
 Chương trình cho phép biên tập danh mục môn học, bài học và ngân hàng câu hỏi đa dạng loại hình (trắc nghiệm đơn, trắc nghiệm nhiều đáp án, kéo thả, đúng/sai, điền từ) và xuất trực tiếp ra file HTML có thể chạy ngay trên mọi trình duyệt web/thiết bị mà không cần máy chủ.
+
+Giao diện của file HTML Test Bank được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
 
 ---
 
@@ -21,9 +23,48 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
   - Cấu hình danh mục dạng cây (**Học phần / Bài học**).
   - Tìm kiếm câu hỏi/đáp án và xem lại kết quả tức thì trên giao diện web được tạo.
 
+
+---
+
+## 📁 Cấu trúc dự án
+
+Dưới đây là sơ đồ cấu trúc các thư mục và tập tin chính trong dự án:
+
+```text
+HTML-Test-Bank-Manager-VN/
+├── image.ico             # Biểu tượng icon ứng dụng
+├── main.py               # Mã nguồn ứng dụng 
+└── README.md             # Hướng dẫn sử dụng
+```
+
+---
+
+## 🛠️ Yêu cầu hệ thống & Cài đặt
+
+### 1. Yêu cầu môi trường
+
+* **Python:** Phiên bản `3.8` trở lên.
+* **Hệ điều hành:** Windows, macOS, hoặc Linux.
+
+### 2. Cài đặt các thư viện cần thiết
+
+Cài đặt các gói phụ thuộc qua `pip`:
+
+```bash
+pip install PyQt6 beautifulsoup4
+```
+
 ---
 
 ## 📖 Hướng dẫn sử dụng chi tiết
+
+### 0. Chạy ứng dụng từ mã nguồn Python
+
+Mở Terminal / Command Prompt tại thư mục dự án và chạy:
+
+```bash
+python main.py
+```
 
 ### 1. Thao tác File
 
@@ -38,8 +79,6 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
 * Bấm **+ Bài Học** để thêm chương/bài học mới thuộc học phần đang chọn.
 * Bấm **- Xóa** để xóa học phần hoặc bài học được chọn.
 
-
-
 ### 3. Biên tập Câu hỏi
 
 * Chọn bài học tương ứng trên cây cấu trúc, danh sách câu hỏi sẽ hiển thị ở bảng bên phải.
@@ -47,8 +86,26 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
 1. Chọn **Loại câu hỏi** phù hợp.
 2. Nhập **Nội dung câu hỏi**.
 3. Điền thông tin chi tiết cho từng loại đáp án (thêm/xóa phương án linh hoạt).
-4. (Tùy chọn) Bật **⚙️ Cấu hình JSON nâng cao** để kiểm tra hoặc bổ sung trường dữ liệu tùy biến.
+4. Bấm **⚙️ Cấu hình JSON nâng cao** để kiểm tra hoặc bổ sung trường dữ liệu tùy biến.
 5. Bấm **OK** để lưu câu hỏi.
+
+---
+
+## 📦 Đóng gói ứng dụng thành file thực thi (.EXE)
+
+Bạn có thể đóng gói ứng dụng thành file `.exe` chạy độc lập bằng **PyInstaller**:
+
+1. Cài đặt PyInstaller:
+```bash
+pip install pyinstaller
+```
+
+2. Chạy lệnh đóng gói (kèm file icon `image.ico`):
+```bash
+pyinstaller --noconsole --onefile --add-data "image.ico;." --icon=image.ico main.py
+```
+
+3. File thực thi sẽ nằm trong thư mục `dist/main.exe`.
 
 ---
 
@@ -88,4 +145,4 @@ Dữ liệu trắc nghiệm được bóc tách và lưu trữ bên trong thẻ 
 
 ## 📝 Giấy phép (License)
 
-Chương trình được phát hành dưới mã nguồn tự do, phục vụ mục đích giáo dục và học tập.
+Dự án được phát hành dưới mã nguồn tự do, phục vụ mục đích giáo dục và học tập.
