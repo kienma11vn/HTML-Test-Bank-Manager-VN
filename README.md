@@ -1,4 +1,4 @@
-# 📚 HTML Test Bank Manager
+# HTML Test Bank Manager
 
 **HTML Test Bank Manager** là ứng dụng desktop viết bằng Python (PyQt6) giúp quản lý, chỉnh sửa và tạo mới các file HTML bài tập trắc nghiệm tương tác độc lập. 
 
