@@ -23,7 +23,6 @@ Giao diện của file HTML Test Bank được thiết kế theo phong cách hi�
   - Cấu hình danh mục dạng cây (**Học phần / Bài học**).
   - Tìm kiếm câu hỏi/đáp án và xem lại kết quả tức thì trên giao diện web được tạo.
 
-
 ---
 
 ## 📁 Cấu trúc dự án
