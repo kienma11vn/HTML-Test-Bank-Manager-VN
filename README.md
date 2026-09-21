@@ -8,6 +8,8 @@ Giao diện của file HTML Test Bank được thiết kế theo phong cách hi�
 
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/635d7fb6-1353-44e5-9241-12293fb2d347" />
 
+<img width="1366" height="677" alt="image" src="https://github.com/user-attachments/assets/a69f1044-ddc0-4691-a235-99e3656ce394" />
+
 <img width="1366" height="787" alt="image" src="https://github.com/user-attachments/assets/fc01d2dc-2a36-47b0-bc51-69a62df4335e" />
 
 ---
