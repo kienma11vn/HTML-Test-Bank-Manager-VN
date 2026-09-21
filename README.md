@@ -6,6 +6,8 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
 
 Giao diện của file HTML Test Bank được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
 
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/635d7fb6-1353-44e5-9241-12293fb2d347" />
+
 ---
 
 ## 🚀 Tính năng chính
@@ -13,10 +15,25 @@ Giao diện của file HTML Test Bank được thiết kế theo phong cách hi�
 - **Quản lý file HTML linh hoạt**: Tải, chỉnh sửa trực tiếp dữ liệu `const DATA` và các thẻ `<title>`, `<div class="header"><p>` trong file HTML mà không làm hỏng cấu trúc giao diện web.
 - **Hỗ trợ 5 loại câu hỏi trắc nghiệm**:
   1. **Single Choice (single)**: Lựa chọn 1 đáp án đúng.
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/5bc1ac74-07bf-426d-a5b9-c2d8f2a67ab0" />
+
   2. **Multiple Choice (multi)**: Chọn nhiều đáp án đúng (tùy chỉnh số lượng đáp án bắt buộc).
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/ac32de03-3194-4028-b9fc-6871aeb0e740" />
+
   3. **Drag & Drop (drag)**: Kéo thả các thẻ tương ứng vào vị trí đúng.
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/0ed81eb2-d815-42ea-b56b-c8d018f1d5de" />
+
   4. **True / False (truefalse)**: Câu hỏi Đúng/Sai dạng nhiều phát biểu.
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/ca0c1d33-4e02-4c6a-ba7a-0eb3e2f30542" />
+  
   5. **Fill in the blank (fill)**: Điền vào chỗ trống (hỗ trợ nhiều đáp án chấp nhận cách nhau bằng dấu phẩy).
+
+<img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/556bc89a-6efc-48f0-88b5-8b165f7849c6" />
+
 - **Trình chỉnh sửa JSON nâng cao**: Cho phép xem và can thiệp trực tiếp cấu trúc JSON của từng câu hỏi.
 - **Giao diện người dùng trực quan**:
   - Tùy chỉnh kích thước font chữ toàn ứng dụng.
