@@ -8,6 +8,8 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
 
 Giao diện của file HTML Test Bank được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
 
+<img width="1366" height="882" alt="image" src="https://github.com/user-attachments/assets/68304c2b-1613-4b1a-9c1f-5316945cda7b" />
+
 <img width="1366" height="677" alt="image" src="https://github.com/user-attachments/assets/a69f1044-ddc0-4691-a235-99e3656ce394" />
 
 <img width="1366" height="787" alt="image" src="https://github.com/user-attachments/assets/fc01d2dc-2a36-47b0-bc51-69a62df4335e" />
