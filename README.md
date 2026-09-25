@@ -125,7 +125,7 @@ pip install pyinstaller
 
 2. Chạy lệnh đóng gói (kèm file icon `image.ico`):
 ```bash
-pyinstaller --noconsole --onefile --add-data "image.ico;." --icon=image.ico main.py
+pyinstaller --noconfirm --onedir --windowed --add-data "image.ico;." --icon="image.ico" "main.py"
 ```
 
 3. File thực thi sẽ nằm trong thư mục `dist/main.exe`.
