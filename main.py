@@ -724,7 +724,7 @@ class MainWindow(QMainWindow):
 
         lbl_font = QLabel("🔤 Cỡ chữ:")
         self.spin_font = QSpinBox()
-        self.spin_font.setRange(10,30)
+        self.spin_font.setRange(10,15)
         self.spin_font.setValue(10)
         self.spin_font.valueChanged.connect(self.change_font_size)
 
@@ -3389,6 +3389,10 @@ initHome();
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon("image.ico"))
+    font = app.font()
+    font.setPointSize(10)
+    app.setFont(font)
     window = MainWindow()
     window.show()
     sys.exit(app.exec())
