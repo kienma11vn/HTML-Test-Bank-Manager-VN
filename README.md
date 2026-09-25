@@ -54,7 +54,7 @@ Giao diện của file HTML Test Bank được thiết kế theo phong cách hi�
 Dưới đây là sơ đồ cấu trúc các thư mục và tập tin chính trong dự án:
 
 ```text
-HTML-Test-Bank-Manager-VN/
+.
 ├── image.ico             # Biểu tượng icon ứng dụng
 ├── main.py               # Mã nguồn ứng dụng 
 └── README.md             # Hướng dẫn sử dụng
