@@ -168,4 +168,4 @@ Dữ liệu trắc nghiệm được bóc tách và lưu trữ bên trong thẻ 
 
 ## 📝 Giấy phép (License)
 
-Dự án được phát hành dưới mã nguồn tự do, phục vụ mục đích giáo dục và học tập.
+Dự án này được phân phối dưới giấy phép **MIT License** dưới dạng mã nguồn tự do, phục vụ mục đích giáo dục và học tập.
