@@ -128,7 +128,12 @@ pip install pyinstaller
 pyinstaller --noconfirm --onedir --windowed --add-data "image.ico;." --icon="image.ico" "main.py"
 ```
 
-3. File thực thi sẽ nằm trong thư mục `dist/main.exe`.
+3. File thực thi sẽ nằm trong thư mục `dist/`.
+
+```text
+dist/
+└── main.exe    # File thực thi có thể chia sẻ và chạy trực tiếp
+```
 
 ---
 
