@@ -8,7 +8,7 @@ Chương trình cho phép biên tập danh mục môn học, bài học và ngâ
   
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/635d7fb6-1353-44e5-9241-12293fb2d347" />
 
-Giao diện của file HTML Test Bank được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
+Giao diện của file **HTML Test Bank** được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
 
 <img width="1366" height="882" alt="image" src="https://github.com/user-attachments/assets/68304c2b-1613-4b1a-9c1f-5316945cda7b" />
 
