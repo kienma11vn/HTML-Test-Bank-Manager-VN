@@ -4,6 +4,8 @@
 
 Chương trình cho phép biên tập danh mục môn học, bài học và ngân hàng câu hỏi đa dạng loại hình (trắc nghiệm đơn, trắc nghiệm nhiều đáp án, kéo thả, đúng/sai, điền từ) và xuất trực tiếp ra file HTML có thể chạy ngay trên mọi trình duyệt web/thiết bị mà không cần máy chủ.
 
+* **Ứng dụng hỗ trợ kèm theo:** [AI-Integrated JSON Parser using Gemini API for HTML Test Bank Manager](https://github.com/kienma11vn/AI-Integrated-JSON-Parser-using-Gemini-API-for-HTML-Test-Bank-Manager-VN.git)
+  
 <img width="1366" height="720" alt="image" src="https://github.com/user-attachments/assets/635d7fb6-1353-44e5-9241-12293fb2d347" />
 
 Giao diện của file HTML Test Bank được thiết kế theo phong cách hiện đại, trực quan và hỗ trợ tương thích tốt trên cả thiết bị di động lẫn máy tính (Responsive Design). Ngoài ra, chức năng tìm kiếm được tích hợp ngay tại trang chủ giúp hỗ trợ tra cứu nhanh câu hỏi và đáp án.
@@ -14,8 +16,6 @@ Giao diện của file HTML Test Bank được thiết kế theo phong cách hi�
 
 <img width="1366" height="787" alt="image" src="https://github.com/user-attachments/assets/fc01d2dc-2a36-47b0-bc51-69a62df4335e" />
 
-* **Ứng dụng hỗ trợ kèm theo:** [AI-Integrated JSON Parser using Gemini API for HTML Test Bank Manager](https://github.com/kienma11vn/AI-Integrated-JSON-Parser-using-Gemini-API-for-HTML-Test-Bank-Manager-VN.git)
-  
 ---
 
 ## 🚀 Tính năng chính
